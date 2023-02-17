@@ -1,7 +1,13 @@
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <div className="container ">
+        <h1>Hello, World!</h1>
+      </div>
+    </>
+  );
 }
 
 export default App;
