@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   document.title = "Casey Davis | Software Engineer";
   return (
-    <>
+    <main className="bg-light ">
       <Header />
       <BrowserRouter>
         <Routes>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </main>
   );
 }
 
