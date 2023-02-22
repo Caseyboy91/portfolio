@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg">
       <div className="container ">
         <a className="navbar-brand" href="/">
           <img className="img-fluid logo" src={Logo} alt="CD logo" />
