@@ -1,8 +1,15 @@
 const Portfolio = () => {
   return (
-    <>
-      <h1>Portfolio</h1>
-    </>
+    <section className="container">
+      <div className="row">
+        <div className="col">
+          <div>
+            <h1>Portfolio</h1>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
