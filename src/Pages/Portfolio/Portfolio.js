@@ -35,6 +35,7 @@ const Portfolio = () => {
               className="text-decoration-none text-reset img-fluid me-3"
               href="https://github.com/Caseyboy91/runnit"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <p className="mb-0">Client</p>
               <img className="ms-2" src={GitHub} alt="Client" />
@@ -43,6 +44,7 @@ const Portfolio = () => {
               className="text-decoration-none text-reset img-fluid me-3"
               href="https://github.com/Caseyboy91/runnit-api"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <p className="mb-0">Server</p>
               <img className="ms-2" src={GitHub} alt="Server" />
@@ -114,7 +116,7 @@ const Portfolio = () => {
       </div>
 
       {/* 2nd */}
-      <div class="row py-5 align-items-center d-flex flex-row-reverse ">
+      <div class="row pt-5 align-items-center d-flex flex-row-reverse ">
         <div className="col-md-4 pb-5">
           <div>
             <h2>Ham It Up</h2>
@@ -138,6 +140,7 @@ const Portfolio = () => {
               className="text-decoration-none text-reset img-fluid me-3"
               href="https://github.com/Caseyboy91/ham-it-up"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <p className="mb-0">Client</p>
               <img className="ms-2" src={GitHub} alt="Client" />
@@ -189,6 +192,81 @@ const Portfolio = () => {
               class="carousel-control-next"
               type="button"
               data-bs-target="#slides-with-controls2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      {/* 3rd */}
+      <div class="row py-5 align-items-center">
+        <div className="col-md-4 pb-5">
+          <div>
+            <h2>Industry Project</h2>
+          </div>
+
+          <p className="lead fs-5">
+            I had the chance to work across cohorts (UX/UI, Data Science,
+            Software Engineers) at BrainStation to build a prototype website for
+            Air Canada. We were tasked with a problem to design a solution to
+            increase user experience and utilization on Air Canada's Aeroplans.
+          </p>
+          <p className="lead fs-6">
+            This app was built using React, Node, JavaScript, and Sass.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <div
+            id="slides-with-controls3"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/seOFe3S.png"
+                  alt="air canada industry project screenshots"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/kqAvRP0.png"
+                  alt="air canada industry project screenshots"
+                />
+              </div>
+              <div class="carousel-item ">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/Nh0ORxa.png"
+                  alt="air canada industry project screenshots certificate"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slides-with-controls3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slides-with-controls3"
               data-bs-slide="next"
             >
               <span
