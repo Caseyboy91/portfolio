@@ -34,13 +34,9 @@ const Footer = () => {
             </a>
           </div>
           <div className="col-4 d-flex align-items-center justify-content-center">
-            <img
-              src={Copyright}
-              alt="copyright"
-              className="d-none d-sm-flex pe-2"
-            />
+            <img src={Copyright} alt="copyright" className="pe-2" />
             <span className="pe-2">2023</span>
-            <span>Casey Davis</span>
+            <span className="d-none d-md-inline">Casey Davis</span>
           </div>
           <div className="col-4 d-flex justify-content-end">
             <a href="/">
