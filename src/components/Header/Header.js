@@ -3,14 +3,12 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <header className="navbar navbar-expand-md sticky-top">
       <div className="container ">
         <a className="navbar-brand" href="/">
-          <img className="img-fluid logo" src={Logo} alt="CD logo" />
+          <img className="img-fluid logo" src={Logo} alt="Casey Davis logo" />
         </a>
-        <span className="navbar-text d-lg-none">
-          Casey Davis | Software Engineer
-        </span>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -42,7 +40,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 

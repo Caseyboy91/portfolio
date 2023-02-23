@@ -2,10 +2,26 @@ import Headshot from "../../assets/headshot/headshot.jpg";
 
 const About = () => {
   return (
-    <main className="container ">
-      <div className="row align-items-center pb-4">
-        <div className="col-8 ">
-          <div>
+    <main className="container py-3">
+      <div className="row align-items-lg-center pb-4">
+        <div className="col-md-4">
+          <div className="d-md-none ">
+            <h1>About</h1>
+            <hr />
+          </div>
+          <figure className="figure text-center mt-md-5 pt-md-3 ">
+            <img
+              className="figure-img img-fluid rounded shadow"
+              src={Headshot}
+              alt="Casey Davis"
+            />
+            <figcaption className="figure-caption mt-3">
+              - Casey Davis -
+            </figcaption>
+          </figure>
+        </div>
+        <div className="col-md-8 ">
+          <div className="d-none d-md-inline">
             <h1>About</h1>
             <hr></hr>
           </div>
@@ -36,25 +52,14 @@ const About = () => {
             background and leadership skills to drive meaningful change.
           </p>
           <p className="lead">
-            But my hunger for knowledge and growth doesn't stop there. I am
-            always seeking out new education opportunities, engaging in
+            My hunger for knowledge and growth doesn't stop there. I am always
+            seeking out new education opportunities, engaging in
             thought-provoking conversations, and seeking mentorship from those
             who share my passion. Whether you're interested in discussing
             potential opportunities or simply want to chat about your latest
             binge-worthy show, I would love to hear from you. So don't hesitate
             to reach out directly!
           </p>
-          <hr></hr>
-        </div>
-        <div className="col-4">
-          <figure className="figure text-center">
-            <img
-              className="figure-img img-fluid rounded"
-              src={Headshot}
-              alt="Casey Davis"
-            />
-            <figcaption className="figure-caption">- Casey Davis -</figcaption>
-          </figure>
         </div>
       </div>
     </main>
