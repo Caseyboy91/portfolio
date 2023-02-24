@@ -27,7 +27,7 @@ const Portfolio = () => {
             This app was built as my Capstone project at BrainStation using
             React, Axios, Express, Node, Bootstrap, Sass, and Stripe.
           </p>
-          <p className="fs-6 d-flex justify-content-center lead text-secondary">
+          <p className="fs-6 d-flex justify-content-center lead text-secondary border border-secondary rounded">
             - Watch the demo video on slide 3 -
           </p>
           <div className="col d-flex justify-content-center ">
@@ -132,7 +132,7 @@ const Portfolio = () => {
             in paired-programming. We designed a prototype using React, Sass,
             Axios, and JSON.
           </p>
-          <p className="fs-6 d-flex justify-content-center lead text-secondary">
+          <p className="fs-6 d-flex justify-content-center lead text-secondary border border-secondary rounded">
             - Check out the code -
           </p>
           <div className="col d-flex justify-content-center ">
