@@ -1,10 +1,11 @@
 import Headshot from "../../assets/headshot/headshot.jpg";
+import Resume from "../../assets/resume/resume-2-24-23.pdf";
 
 const About = () => {
   return (
     <main className="container py-3">
       <div className="row align-items-lg-center pb-4">
-        <div className="col-md-4">
+        <div className="col-md-4 ">
           <div className="d-md-none ">
             <h1>About</h1>
             <hr />
@@ -15,8 +16,18 @@ const About = () => {
               src={Headshot}
               alt="Casey Davis"
             />
-            <figcaption className="figure-caption mt-3">
+            <figcaption className="figure-caption mt-3 text-light">
               - Casey Davis -
+            </figcaption>
+            <figcaption className="figure-caption mt-3 ">
+              <a
+                className="text-decoration-none text-light"
+                href={Resume}
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                - Resume -
+              </a>
             </figcaption>
           </figure>
         </div>
