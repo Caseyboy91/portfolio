@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <body className="bg-light ">
+      <body className="bg-dark text-light ">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<About />} />
