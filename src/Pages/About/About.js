@@ -3,7 +3,7 @@ import Resume from "../../assets/resume/resume-2-24-23.pdf";
 
 const About = () => {
   return (
-    <main className="container py-3">
+    <main className="container vh-100 py-3">
       <div className="row align-items-lg-center pb-4">
         <div className="col-md-4 ">
           <div className="d-md-none ">

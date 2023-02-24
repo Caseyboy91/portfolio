@@ -2,7 +2,7 @@ import GitHub from "../../assets/icons/github.svg";
 
 const Portfolio = () => {
   return (
-    <section className="container py-3">
+    <section className="container vh-100 py-3">
       <div className="row">
         <div className="col">
           <div>
