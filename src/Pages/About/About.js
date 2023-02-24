@@ -16,12 +16,12 @@ const About = () => {
               src={Headshot}
               alt="Casey Davis"
             />
-            <figcaption className="figure-caption mt-3 text-light">
+            <figcaption className="figure-caption fs-3 mt-3 text-light">
               - Casey Davis -
             </figcaption>
             <figcaption className="figure-caption mt-3 ">
               <a
-                className="text-decoration-none text-light"
+                className="text-decoration-none text-light btn border border-secondary rounded "
                 href={Resume}
                 target={"_blank"}
                 rel={"noreferrer"}
