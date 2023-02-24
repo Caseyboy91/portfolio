@@ -4,6 +4,8 @@ import LinkedIn from "../../assets/icons/linkedin.svg";
 import GitHub from "../../assets/icons/github.svg";
 import Email from "../../assets/icons/envelope-fill.svg";
 import Copyright from "../../assets/icons/c-circle.svg";
+import Person from "../../assets/icons/person.svg";
+import Resume from "../../assets/resume/resume-2-24-23.pdf";
 
 const Footer = () => {
   return (
@@ -12,25 +14,36 @@ const Footer = () => {
         <div className="row  align-items-center">
           <div className="col-4 d-flex justify-content-start ">
             <a
-              className="img-fluid me-3 icon"
+              className="img-fluid me-3"
               href="https://www.linkedin.com/in/caseydavis91/"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
             <a
-              className="img-fluid me-3 icon"
+              className="img-fluid me-3 "
               href="https://github.com/Caseyboy91"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <img src={GitHub} alt="GitHub" />
             </a>
             <a
-              className="img-fluid me-3 icon"
+              className="img-fluid me-3 "
               href="mailto:contact@caseyrdavis.com"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               <img src={Email} alt="Email" />
+            </a>
+            <a
+              className="img-fluid me-3 "
+              href={Resume}
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              <img src={Person} alt="Resume" />
             </a>
           </div>
           <div className="col-4 d-flex align-items-center justify-content-center">

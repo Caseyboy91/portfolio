@@ -38,7 +38,7 @@ const Portfolio = () => {
               rel={"noreferrer"}
             >
               <p className="mb-0">Client</p>
-              <img className="ms-2" src={GitHub} alt="Client" />
+              <img className="ms-2 w-50" src={GitHub} alt="Client" />
             </a>
             <a
               className="text-decoration-none text-reset img-fluid me-3"
@@ -47,7 +47,7 @@ const Portfolio = () => {
               rel={"noreferrer"}
             >
               <p className="mb-0">Server</p>
-              <img className="ms-2" src={GitHub} alt="Server" />
+              <img className="ms-2 w-50" src={GitHub} alt="Server" />
             </a>
           </div>
         </div>
@@ -143,7 +143,7 @@ const Portfolio = () => {
               rel={"noreferrer"}
             >
               <p className="mb-0">Client</p>
-              <img className="ms-2" src={GitHub} alt="Client" />
+              <img className="ms-2 w-50" src={GitHub} alt="Client" />
             </a>
           </div>
         </div>
