@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="navbar navbar-expand-md">
+    <header className="navbar navbar-expand-md sticky-top">
       <div className="container ">
         <a className="navbar-brand" href="/">
           <img className="img-fluid logo" src={Logo} alt="Casey Davis logo" />
