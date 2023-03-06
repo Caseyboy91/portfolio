@@ -1,4 +1,5 @@
 import GitHub from "../../assets/icons/github.svg";
+import Webpage from "../../assets/icons/globe.svg";
 
 const Portfolio = () => {
   return (
@@ -144,6 +145,15 @@ const Portfolio = () => {
               <p className="mb-0">Client</p>
               <img className="ms-2 w-50" src={GitHub} alt="Client" />
             </a>
+            <a
+              className="text-decoration-none text-reset img-fluid me-3"
+              href="https://www.hellodpevents.com"
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              <p className="mb-0">Website</p>
+              <img className="ms-2 " src={Webpage} alt="Website" />
+            </a>
           </div>
         </div>
         <div class="col-md-8">
@@ -152,26 +162,26 @@ const Portfolio = () => {
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
                 <img
                   class="d-block w-100"
-                  src="https://i.imgur.com/NLo5wLe.png"
-                  alt="ham it up"
+                  src="https://i.imgur.com/KuaXdnx.png"
+                  alt="home screen"
                 />
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item ">
                 <img
-                  class="d-block w-100"
-                  src="https://i.imgur.com/SRXsQTj.png"
-                  alt="ham it up cards"
+                  class="d-block w-100 "
+                  src="https://i.imgur.com/oOwyOYx.png"
+                  alt="about"
                 />
               </div>
               <div class="carousel-item ">
                 <img
                   class="d-block w-100"
-                  src="https://i.imgur.com/qqpInNR.png"
-                  alt="card info"
+                  src="https://i.imgur.com/CXveBYN.png"
+                  alt="cards"
                 />
               </div>
             </div>
@@ -238,7 +248,7 @@ const Portfolio = () => {
         </div>
         <div class="col-md-8">
           <div
-            id="slides-with-controls2"
+            id="slides-with-controls3"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
@@ -268,7 +278,7 @@ const Portfolio = () => {
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#slides-with-controls2"
+              data-bs-target="#slides-with-controls3"
               data-bs-slide="prev"
             >
               <span
@@ -280,7 +290,7 @@ const Portfolio = () => {
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#slides-with-controls2"
+              data-bs-target="#slides-with-controls3"
               data-bs-slide="next"
             >
               <span
@@ -313,7 +323,7 @@ const Portfolio = () => {
         </div>
         <div class="col-md-8">
           <div
-            id="slides-with-controls3"
+            id="slides-with-controls4"
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
@@ -343,7 +353,7 @@ const Portfolio = () => {
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#slides-with-controls3"
+              data-bs-target="#slides-with-controls4"
               data-bs-slide="prev"
             >
               <span
@@ -355,7 +365,7 @@ const Portfolio = () => {
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#slides-with-controls3"
+              data-bs-target="#slides-with-controls4"
               data-bs-slide="next"
             >
               <span
