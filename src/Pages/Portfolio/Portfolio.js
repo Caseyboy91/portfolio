@@ -115,8 +115,97 @@ const Portfolio = () => {
         <hr />
       </div>
 
-      {/* 2nd */}
+      {/* DP Events */}
       <div class="row pt-5 align-items-center d-flex flex-row-reverse ">
+        <div className="col-md-4 pb-5">
+          <div>
+            <h2>Diane Pugmire Events</h2>
+          </div>
+
+          <p className="lead">
+            Diane Pugmire Events - DP Events, is a full-service wedding and
+            event planning business. This client was looking for a modern and
+            sleak update to her brand.
+          </p>
+
+          <p className="lead fs-6">
+            This app was built and designed using React, Bootstrap, and Emailjs.
+          </p>
+          <p className="fs-6 d-flex justify-content-center lead text-secondary border border-secondary rounded">
+            - Check out the code and website -
+          </p>
+          <div className="col d-flex justify-content-center ">
+            <a
+              className="text-decoration-none text-reset img-fluid me-3"
+              href="https://github.com/Caseyboy91/dpevents"
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              <p className="mb-0">Client</p>
+              <img className="ms-2 w-50" src={GitHub} alt="Client" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div
+            id="slides-with-controls2"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/NLo5wLe.png"
+                  alt="ham it up"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/SRXsQTj.png"
+                  alt="ham it up cards"
+                />
+              </div>
+              <div class="carousel-item ">
+                <img
+                  class="d-block w-100"
+                  src="https://i.imgur.com/qqpInNR.png"
+                  alt="card info"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slides-with-controls2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slides-with-controls2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      {/* Ham It Up */}
+      <div class="row pt-5 align-items-center d-flex">
         <div className="col-md-4 pb-5">
           <div>
             <h2>Ham It Up</h2>
@@ -205,8 +294,8 @@ const Portfolio = () => {
         <hr />
       </div>
 
-      {/* 3rd */}
-      <div class="row py-5 align-items-center">
+      {/* Air Canada */}
+      <div class="row py-5 align-items-center flex-row-reverse ">
         <div className="col-md-4 pb-5">
           <div>
             <h2>Industry Project</h2>
