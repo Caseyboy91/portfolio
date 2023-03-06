@@ -9,7 +9,7 @@ import Resume from "../../assets/resume/resume-2-24-23.pdf";
 
 const Footer = () => {
   return (
-    <footer className="footer fixed-bottom">
+    <footer className="footer sticky-bottom">
       <div className="container">
         <div className="row  align-items-center">
           <div className="col-4 d-flex justify-content-start ">

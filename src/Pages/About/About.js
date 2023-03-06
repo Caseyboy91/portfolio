@@ -3,7 +3,7 @@ import Resume from "../../assets/resume/resume-2-24-23.pdf";
 
 const About = () => {
   return (
-    <main className="container py-3">
+    <main className="container min-vh-100 py-3">
       <div className="row align-items-lg-center pb-4">
         <div className="col-md-4 ">
           <div className="d-md-none ">
@@ -55,12 +55,13 @@ const About = () => {
             world of difference.
           </p>
           <p className="lead">
-            Enter the Software Engineer Bootcamp at BrainStation, where I have
-            immersed myself in the latest technology languages and platforms,
-            including HTML5, Javascript, React.js, and Express.js. Armed with
-            these cutting-edge tools, I am eager to make my mark in the world of
-            software engineering and web development, leveraging my unique
-            background and leadership skills to drive meaningful change.
+            After researching options, I entered into the Software Engineer
+            Bootcamp at BrainStation, where I have immersed myself in the latest
+            technology languages and platforms, including HTML5, Javascript,
+            React.js, and Express.js. Armed with these cutting-edge tools, I am
+            eager to make my mark in the world of software engineering and web
+            development, leveraging my unique background and leadership skills
+            to drive meaningful change.
           </p>
           <p className="lead">
             My hunger for knowledge and growth doesn't stop there. I am always
