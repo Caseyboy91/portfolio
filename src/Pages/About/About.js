@@ -1,5 +1,5 @@
 import Headshot from "../../assets/headshot/headshot.jpg";
-import Resume from "../../assets/resume/resume-2-24-23.pdf";
+import Resume from "../../assets/resume/casey-davis-resume.pdf";
 
 const About = () => {
   return (
