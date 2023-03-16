@@ -5,7 +5,7 @@ import GitHub from "../../assets/icons/github.svg";
 import Email from "../../assets/icons/envelope-fill.svg";
 import Copyright from "../../assets/icons/c-circle.svg";
 import Person from "../../assets/icons/person.svg";
-import Resume from "../../assets/resume/resume-2-24-23.pdf";
+import Resume from "../../assets/resume/casey-davis-resume.pdf";
 
 const Footer = () => {
   return (
