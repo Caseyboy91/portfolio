@@ -115,8 +115,8 @@ const Contact = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col bg-secondary rounded my-3">
-          <div className=" ">
+        <div className="col bg-secondary rounded my-3 ">
+          <div className=" justify-content-center">
             <InlineWidget url="https://calendly.com/crsoftwareengineering" />
           </div>
         </div>
