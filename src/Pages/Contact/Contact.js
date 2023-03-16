@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -27,6 +28,15 @@ const Contact = () => {
       })
       .catch((err) => console.log(err));
   };
+
+  // Calendly.initInlineWidget({
+  //   url: "https://calendly.com/crsoftwareengineering/meet-with-casey?back=1&month=2023-03",
+  //   parentElement: document.getElementById("calendly"),
+  //   prefill: {},
+  //   utm: {},
+  // });
+
+  // Access Key: eyJraWQiOiIxY2UxZTEzNjE3ZGNmNzY2YjNjZWJjY2Y4ZGM1YmFmYThhNjVlNjg0MDIzZjdjMzJiZTgzNDliMjM4MDEzNWI0IiwidHlwIjoiUEFUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2F1dGguY2FsZW5kbHkuY29tIiwiaWF0IjoxNjc4OTI5NTc5LCJqdGkiOiI4MjVlYzQ1MS03ODBjLTQ4MDAtYjZjOC1hMzgxODY3YzgyNjQiLCJ1c2VyX3V1aWQiOiIyZTQ5ZDRhMC1hZGY1LTQ5MTUtOWIyZi1lNDIxZjg5NmY2ZDcifQ.ieM8ZCE9wh0pO-fXEVVoTL9RU3uaR5_dnaXdtv528Z2ejRdCKz5n2oX0a-SFjFoqfPrST4SgTEUkPSX_8UbDdw
 
   return (
     <section className="container align-items-center min-vh-100 py-3">
@@ -95,10 +105,18 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <div className="col-md-12">
-          <button type="submit" className="btn btn-secondary">
+        <div className="col ">
+          <button type="submit" className="btn btn-secondary me-3">
             Send Email
           </button>
+          <a
+            href="https://calendly.com/crsoftwareengineering"
+            className="btn btn-secondary"
+            target={"_blank"}
+            rel={"noreferrer"}
+          >
+            Book Appointment On Calendly
+          </a>
         </div>
       </form>
     </section>
