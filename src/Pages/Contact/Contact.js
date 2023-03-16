@@ -1,5 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import { InlineWidget } from "react-calendly";
+import "./Contact.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -36,6 +38,11 @@ const Contact = () => {
             <h1>Contact</h1>
             <hr />
           </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <p>For general inquiries, please submit the form below</p>
         </div>
       </div>
       <form className="row g-3" onSubmit={sendEmail}>
@@ -95,12 +102,25 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <div className="col-md-12">
-          <button type="submit" className="btn btn-secondary">
+        <div className="col ">
+          <button type="submit" className="btn btn-secondary me-3">
             Send Email
           </button>
         </div>
       </form>
+      <hr />
+      <div className="row mt-3">
+        <div className="col">
+          <p>To book a Zoom or Phone call, select a time and date</p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col bg-secondary rounded my-3 ">
+          <div className=" justify-content-center">
+            <InlineWidget url="https://calendly.com/crsoftwareengineering" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
