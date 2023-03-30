@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import About from "./Pages/About/About.js";
 import Portfolio from "./Pages/Portfolio/Portfolio.js";
@@ -11,14 +10,9 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-
+      <About />
+      <Portfolio />
+      <Contact />
       <Footer />
     </>
   );

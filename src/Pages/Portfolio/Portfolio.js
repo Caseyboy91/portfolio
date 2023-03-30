@@ -3,7 +3,7 @@ import Webpage from "../../assets/icons/globe.svg";
 
 const Portfolio = () => {
   return (
-    <section className="container min-vh-100 py-3">
+    <section className="container py-3 " id="portfolio">
       <div className="row">
         <div className="col">
           <div>

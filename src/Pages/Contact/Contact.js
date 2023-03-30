@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="container align-items-center min-vh-100 py-3">
+    <section className="container align-items-center py-3" id="contact">
       <div className="row ">
         <div className="col  ">
           <div>

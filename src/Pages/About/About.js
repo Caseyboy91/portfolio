@@ -3,10 +3,10 @@ import Resume from "../../assets/resume/casey-davis-resume.pdf";
 
 const About = () => {
   return (
-    <main className="container min-vh-100 py-3">
+    <main className="container py-3">
       <div className="row align-items-lg-center pb-4">
         <div className="col-md-4 ">
-          <div className="d-md-none ">
+          <div className="d-md-none" id="about">
             <h1>About</h1>
             <hr />
           </div>
