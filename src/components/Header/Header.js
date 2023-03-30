@@ -1,10 +1,10 @@
-import Logo from "../../assets/logo/logo6.png";
+import Logo from "../../assets/logo/logo-long.png";
 import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="navbar navbar-expand-md sticky-top">
-      <div className="container ">
+    <header className="navbar navbar-nav navbar-expand-md sticky-top navbar-dark bg-dark">
+      <nav className="container">
         <a className="navbar-brand" href="/">
           <img className="img-fluid logo" src={Logo} alt="Casey Davis logo" />
         </a>
@@ -20,8 +20,11 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-4">
             <li class="nav-item">
               <a href="/" class="nav-link">
                 About
@@ -39,7 +42,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };

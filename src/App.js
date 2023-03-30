@@ -11,15 +11,14 @@ function App() {
   return (
     <>
       <Header />
-      <body className="bg-dark text-light ">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </BrowserRouter>
-      </body>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+
       <Footer />
     </>
   );

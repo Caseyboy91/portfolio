@@ -1,5 +1,5 @@
 import "./Footer.css";
-import Logo7 from "../../assets/logo/logo7.png";
+import Logo from "../../assets/logo/logo.png";
 import LinkedIn from "../../assets/icons/linkedin.svg";
 import GitHub from "../../assets/icons/github.svg";
 import Email from "../../assets/icons/envelope-fill.svg";
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
           <div className="col-4 d-flex justify-content-end">
             <a href="/">
-              <img className="img-fluid logo2" src={Logo7} alt="CD logo" />
+              <img className="img-fluid logo2" src={Logo} alt="CD logo" />
             </a>
           </div>
         </div>
