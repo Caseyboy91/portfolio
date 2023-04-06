@@ -1,5 +1,3 @@
-import Header from "./components/Header/Header";
-import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About.js";
 import Services from "./Pages/Services/Services";
 import Portfolio from "./Pages/Portfolio/Portfolio.js";
